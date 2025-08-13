@@ -1,5 +1,5 @@
 <?php
-include_once 'admin-panel.php';
+// Start the session before any output to avoid header-related warnings.
 session_start();
 ?>
 
@@ -45,4 +45,4 @@ session_start();
 	 </div>
  </nav>
 
-</header>
+ </header>
